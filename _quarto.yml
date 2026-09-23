@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Jim's Blog"
+  site-url: https://jcarr.codeberg.page/blog/
+  description: "Musings..."
+  search:
+    type: textbox
+  sidebar:
+    style: "floating"
+    contents: auto
+    collapse-level: 1
+  reader-mode: true
+  favicon: favicon.ico
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - pages/about.md
+    right:
+      - icon: git
+        href: https://codeberg.org/jcarr
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jfcarr/
+      - icon: mastodon
+        href: https://techhub.social/@jcarr
+        rel: me
+      - icon: rss
+        href: index.xml
+  cookie-consent: true
+  open-graph: true
+  page-footer: "Copyright 2007-2026, Jim Carr"
+format:
+  html:
+    theme:
+      dark: solar
+      light: flatly
+    css: styles.css
+    toc: true
+    code-overflow: wrap
+    highlight-style: github
+    page-layout: full
