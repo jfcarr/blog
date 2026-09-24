@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Jim's Blog"
-  site-url: https://jcarr.codeberg.page/blog/
+  site-url: https://jfcarr.github.io/blog/
   description: "Musings..."
   search:
     type: textbox
@@ -21,7 +21,7 @@ website:
       - pages/about.md
     right:
       - icon: git
-        href: https://codeberg.org/jcarr
+        href: https://github.com/jfcarr
       - icon: linkedin
         href: https://www.linkedin.com/in/jfcarr/
       - icon: mastodon

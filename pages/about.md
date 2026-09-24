@@ -12,8 +12,8 @@ If you’d like to contact me, you can email me: jfcarr(at)gmail.com
 
 Site | Description
 ---------|----------
-[Codeberg](https://codeberg.org/jcarr) | Slowly migrating from GitHub.
-[Knowledge Base](https://jcarr.codeberg.page/kbase) | A bunch of articles I've compiled, mostly technical.
+[GitHub](https://github.com/jfcarr) | Software projects.
+[Knowledge Base](https://jfcarr.github.io/kbase/) | A bunch of articles I've compiled, mostly technical.
 [Mastodon](https://techhub.social/@jcarr) | Like Twitter, but no algorithms, and a lot less toxic. My favorite social media right now.
 [LinkedIn](https://linkedin.com/in/jfcarr) | My LinkedIn profile.
 [Facebook](https://www.facebook.com/jim.carr) | My personal Facebook page. (I don't use Facebook regularly)

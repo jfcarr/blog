@@ -1,1 +1,1 @@
-Sitemap: https://jcarr.codeberg.page/blog/sitemap.xml
+Sitemap: https://jfcarr.github.io/blog/sitemap.xml

@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Jim&#39;s Blog</title>
-<link>https://jcarr.codeberg.page/blog/</link>
-<atom:link href="https://jcarr.codeberg.page/blog/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://jfcarr.github.io/blog/</link>
+<atom:link href="https://jfcarr.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Musings...</description>
-<generator>quarto-1.9.38</generator>
+<generator>quarto-1.10.18</generator>
 <lastBuildDate>Sat, 13 Sep 2025 04:00:00 GMT</lastBuildDate>
 <item>
   <title>Memory Debugging in C</title>
   <dc:creator>Jim Carr</dc:creator>
-  <link>https://jcarr.codeberg.page/blog/posts/2025/memory_debug_c.html</link>
+  <link>https://jfcarr.github.io/blog/posts/2025/memory_debug_c.html</link>
   <description><![CDATA[ 
 
 
@@ -28,7 +28,7 @@
 The landscape of memory safety in low-level programming languages, particularly C and C++, is increasingly under scrutiny due to the significant security vulnerabilities associated with unsafe memory practices. Recent reports and initiatives highlight the urgent need for a shift towards memory-safe languages to mitigate these risks.
 </td>
 <td>
-<img src="https://jcarr.codeberg.page/blog/posts/2025/images/sherlock-holmes.png">
+<img src="https://jfcarr.github.io/blog/posts/2025/images/sherlock-holmes.png">
 </td>
 </tr>
 </tbody></table>
@@ -1093,13 +1093,13 @@ font-style: inherit;">=</span>full ./out_of_bounds</span></code></pre></div></di
 
  ]]></description>
   <category>C</category>
-  <guid>https://jcarr.codeberg.page/blog/posts/2025/memory_debug_c.html</guid>
+  <guid>https://jfcarr.github.io/blog/posts/2025/memory_debug_c.html</guid>
   <pubDate>Sat, 13 Sep 2025 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>CGI Programming</title>
   <dc:creator>Jim Carr</dc:creator>
-  <link>https://jcarr.codeberg.page/blog/posts/2025/cgi_programming.html</link>
+  <link>https://jfcarr.github.io/blog/posts/2025/cgi_programming.html</link>
   <description><![CDATA[ 
 
 
@@ -1110,7 +1110,7 @@ font-style: inherit;">=</span>full ./out_of_bounds</span></code></pre></div></di
 <p>In computing, <strong>Common Gateway Interface (CGI)</strong> is an interface specification that enables web servers to execute an external program to process HTTP or HTTPS user requests.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://jcarr.codeberg.page/blog/posts/2025/images/cgi/cgi_logo.png" class="img-fluid figure-img"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2025/images/cgi/cgi_logo.png" class="img-fluid figure-img"></p>
 <figcaption>The official CGI logo from the spec announcement</figcaption>
 </figure>
 </div>
@@ -1368,7 +1368,7 @@ font-style: inherit;">chmod</span> 755 simple_cgi</span>
 background-color: null;
 font-style: inherit;">cp</span> simple_cgi /path/to/project/www_root/cgi-bin</span></code></pre></div></div>
 <p>Navigate to <a href="http://127.0.0.1:8000/cgi-bin/simple_cgi" class="uri">http://127.0.0.1:8000/cgi-bin/simple_cgi</a> in your browser, and you’ll see this:</p>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2025/images/cgi/hello_world_c.jpg" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2025/images/cgi/hello_world_c.jpg" class="img-fluid"></p>
 <p>To implement the same example in Perl, first create the Perl script in the cgi-bin directory:</p>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
@@ -1479,7 +1479,7 @@ background-color: null;
 font-style: inherit;">end_html</span>;</span></code></pre></div></div>
 </div>
 <p>Then, navigate to <a href="http://127.0.0.1:8000/cgi-bin/simple_cgi_p.pl" class="uri">http://127.0.0.1:8000/cgi-bin/simple_cgi_p.pl</a> in your browser, and you’ll see this:</p>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2025/images/cgi/hello_world_perl.jpg" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2025/images/cgi/hello_world_perl.jpg" class="img-fluid"></p>
 </section>
 <section id="a-more-complex-example-handling-form-posting" class="level2">
 <h2 class="anchored" data-anchor-id="a-more-complex-example-handling-form-posting">A More Complex Example: Handling Form Posting</h2>
@@ -2045,9 +2045,9 @@ background-color: null;
 font-style: inherit;">&gt;</span></span></code></pre></div></div>
 </div>
 <p>Navigate to <a href="http://127.0.0.1:8000/form.html" class="uri">http://127.0.0.1:8000/form.html</a> and enter some data:</p>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2025/images/cgi/form.jpg" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2025/images/cgi/form.jpg" class="img-fluid"></p>
 <p>Click “Submit”, and you’ll see this:</p>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2025/images/cgi/form_result.jpg" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2025/images/cgi/form_result.jpg" class="img-fluid"></p>
 <p>Accomplishing the same thing in Perl is a bit more straightforward. In <strong>cgi-bin</strong>, create your form capture CGI script (Perl version):</p>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
@@ -2241,13 +2241,13 @@ font-style: inherit;">&gt;</span></span></code></pre></div></div>
   <category>Retro</category>
   <category>C</category>
   <category>Perl</category>
-  <guid>https://jcarr.codeberg.page/blog/posts/2025/cgi_programming.html</guid>
+  <guid>https://jfcarr.github.io/blog/posts/2025/cgi_programming.html</guid>
   <pubDate>Fri, 05 Sep 2025 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>The Dark Forest</title>
   <dc:creator>Jim Carr</dc:creator>
-  <link>https://jcarr.codeberg.page/blog/posts/2025/the_dark_forest.html</link>
+  <link>https://jfcarr.github.io/blog/posts/2025/the_dark_forest.html</link>
   <description><![CDATA[ 
 
 
@@ -2258,7 +2258,7 @@ font-style: inherit;">&gt;</span></span></code></pre></div></div>
 <p>The <strong>Dark Forest Theory</strong> is a fascinating concept that delves into the reasons behind the apparent silence of the universe. It suggests that the cosmos is akin to a dark forest, where every civilization is a silent hunter, hiding from others to avoid potential threats.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://jcarr.codeberg.page/blog/posts/2025/images/dark_forest.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2025/images/dark_forest.jpg" class="img-fluid figure-img"></p>
 <figcaption>A dark forest</figcaption>
 </figure>
 </div>
@@ -2322,13 +2322,13 @@ font-style: inherit;">&gt;</span></span></code></pre></div></div>
 
  ]]></description>
   <category>Astronomy</category>
-  <guid>https://jcarr.codeberg.page/blog/posts/2025/the_dark_forest.html</guid>
+  <guid>https://jfcarr.github.io/blog/posts/2025/the_dark_forest.html</guid>
   <pubDate>Tue, 02 Sep 2025 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Evaluating Zig</title>
   <dc:creator>Jim Carr</dc:creator>
-  <link>https://jcarr.codeberg.page/blog/posts/2025/evaluating_zig.html</link>
+  <link>https://jfcarr.github.io/blog/posts/2025/evaluating_zig.html</link>
   <description><![CDATA[ 
 
 
@@ -2340,7 +2340,7 @@ font-style: inherit;">&gt;</span></span></code></pre></div></div>
 <p>Let’s check it out!</p>
 <section id="what-is-zig" class="level1">
 <h1>What is Zig?</h1>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2025/images/zig-logo.png" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2025/images/zig-logo.png" class="img-fluid"></p>
 <p>A summary from the <a href="https://ziglang.org">Zig home page</a> and other sources:</p>
 <p>Zig is a general-purpose programming language that emphasizes <strong>performance</strong>, <strong>safety</strong>, and <strong>maintainability</strong>. It was created by Andrew Kelley and has gained traction for its ability to provide low-level control over system resources while maintaining a modern syntax and features that enhance developer productivity. Zig is particularly well-suited for systems programming, game development, and applications where performance is critical.</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/Gv2I7qTux7g" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
@@ -3288,13 +3288,13 @@ font-style: inherit;">file</span> hello.exe</span></code></pre></div></div>
 
  ]]></description>
   <category>Zig</category>
-  <guid>https://jcarr.codeberg.page/blog/posts/2025/evaluating_zig.html</guid>
+  <guid>https://jfcarr.github.io/blog/posts/2025/evaluating_zig.html</guid>
   <pubDate>Sat, 16 Aug 2025 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Learning Fortran</title>
   <dc:creator>Jim Carr</dc:creator>
-  <link>https://jcarr.codeberg.page/blog/posts/2025/learning_fortran.html</link>
+  <link>https://jfcarr.github.io/blog/posts/2025/learning_fortran.html</link>
   <description><![CDATA[ 
 
 
@@ -3306,7 +3306,7 @@ font-style: inherit;">file</span> hello.exe</span></code></pre></div></div>
 <p>I kept pondering that idea and eventually thought, “Why not?”</p>
 <section id="history" class="level1">
 <h1>History</h1>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2025/images/fortran-acs-cover.jpg" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2025/images/fortran-acs-cover.jpg" class="img-fluid"></p>
 <p>Fortran is one of the oldest programming languages, with a first proposal being submitted by John Backus in 1953, and the first compiler delivered in 1957.</p>
 <p>Fortran has had <a href="https://en.wikipedia.org/wiki/Fortran#Evolution">many major revisions</a>, including:</p>
 <table class="caption-top table">
@@ -4842,13 +4842,13 @@ font-style: inherit;">end subroutine</span></span></code></pre></div></div>
  ]]></description>
   <category>Retro</category>
   <category>Fortran</category>
-  <guid>https://jcarr.codeberg.page/blog/posts/2025/learning_fortran.html</guid>
+  <guid>https://jfcarr.github.io/blog/posts/2025/learning_fortran.html</guid>
   <pubDate>Sun, 20 Apr 2025 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Observing Plan for the April Astronomy Program at Garber Forest</title>
   <dc:creator>Jim Carr</dc:creator>
-  <link>https://jcarr.codeberg.page/blog/posts/2025/garber_observing_plan.html</link>
+  <link>https://jfcarr.github.io/blog/posts/2025/garber_observing_plan.html</link>
   <description><![CDATA[ 
 
 
@@ -4860,9 +4860,9 @@ font-style: inherit;">end subroutine</span></span></code></pre></div></div>
 <p><strong>IMPORTANT ANNOUNCEMENT</strong> Sadly, the weather got us again. With rain and thunderstorms in the forecast, we’re forced to cancel the astronomy program for 4/5.</p>
 </blockquote>
 <p>On April 5th, 2025, I will be at the <a href="https://maps.app.goo.gl/Wqxny94ZTLmi6igm6">Garber Forest near Lewisburg Ohio</a>, equipped with my telescope to discuss astronomy and lead an exploration of the night sky - weather permitting, of course! (The <a href="../../posts/2024/garber_observing_plan.html">first attempt didn’t work out</a>.)</p>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2025/images/observing_plan/under_the_stars_1.jpg" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2025/images/observing_plan/under_the_stars_1.jpg" class="img-fluid"></p>
 <p>This event is organized by the <a href="https://preblecountyparks.org/">Preble County Park District</a>.</p>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2025/images/observing_plan/under_the_stars_2.jpg" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2025/images/observing_plan/under_the_stars_2.jpg" class="img-fluid"></p>
 <section id="what-well-look-for" class="level1">
 <h1>What We’ll Look For</h1>
 <p>These are our main targets, but we’ll look for other things too!</p>
@@ -4876,19 +4876,19 @@ font-style: inherit;">end subroutine</span></span></code></pre></div></div>
 </section>
 <section id="pm-1" class="level2">
 <h2 class="anchored" data-anchor-id="pm-1">9pm</h2>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2025/images/observing_plan/arcturus.jpg" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2025/images/observing_plan/arcturus.jpg" class="img-fluid"></p>
 <p>Rising in the East: Arcturus, part of the constellation Bootes.</p>
 <hr>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2025/images/observing_plan/moon_mars.jpg" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2025/images/observing_plan/moon_mars.jpg" class="img-fluid"></p>
 <p>Overhead, Mars will be close to the Moon.</p>
 <hr>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2025/images/observing_plan/orion_sirius_jupiter_taurus_pleiades.jpg" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2025/images/observing_plan/orion_sirius_jupiter_taurus_pleiades.jpg" class="img-fluid"></p>
 <p>To the West, the constellation Orion, with its bright stars Betelgeuse and Rigel and the Orion nebula.</p>
 <p>To the left of Orion is the bright star Sirius, part of the constellation Canis Major.</p>
 <p>To the right of Orion is the bright star Aldebaran, part of the constellation Taurus.</p>
 <p>Just above Aldebaran is Jupiter, and to the right of Aldebaran is the Pleiades, a star cluster.</p>
 <hr>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2025/images/observing_plan/dippers_cassiopeia.jpg" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2025/images/observing_plan/dippers_cassiopeia.jpg" class="img-fluid"></p>
 <p>To the North, the “dippers” (Ursa Minor and Ursa Major) and Cassiopeia.</p>
 </section>
 </section>
@@ -4919,7 +4919,7 @@ font-style: inherit;">end subroutine</span></span></code></pre></div></div>
 <p>Altitude and azimuth are two coordinates used in astronomy to specify the position of an object in the sky as observed from a specific location on Earth.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://jcarr.codeberg.page/blog/posts/2025/images/observing_plan/altitude-and-azimuth.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2025/images/observing_plan/altitude-and-azimuth.jpg" class="img-fluid figure-img"></p>
 <figcaption>Altitude and Azimuth</figcaption>
 </figure>
 </div>
@@ -5090,13 +5090,13 @@ font-style: inherit;">end subroutine</span></span></code></pre></div></div>
 
  ]]></description>
   <category>Astronomy</category>
-  <guid>https://jcarr.codeberg.page/blog/posts/2025/garber_observing_plan.html</guid>
+  <guid>https://jfcarr.github.io/blog/posts/2025/garber_observing_plan.html</guid>
   <pubDate>Sat, 01 Mar 2025 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Implement a REST Service on a Nano RP2040</title>
   <dc:creator>Jim Carr</dc:creator>
-  <link>https://jcarr.codeberg.page/blog/posts/2025/nano_rp2040_rest.html</link>
+  <link>https://jfcarr.github.io/blog/posts/2025/nano_rp2040_rest.html</link>
   <description><![CDATA[ 
 
 
@@ -5105,7 +5105,7 @@ font-style: inherit;">end subroutine</span></span></code></pre></div></div>
 
 
 <p>The Nano RP2040 is an Arduino Nano board with a Raspberry Pi RP2040 microcontroller that supports Bluetooth, WiFi, and machine learning. It has an onboard accelerometer, gyroscope, microphone, and temperature sensor.</p>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2025/images/nano_rp2040.png" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2025/images/nano_rp2040.png" class="img-fluid"></p>
 <p>With the built-in sensors and WiFi, it’s a good candidate for a remote monitoring solution. We’ll implement a simple REST service that returns the current temperature.</p>
 <blockquote class="blockquote">
 <p>NOTE: I’m maintaining and improving a more feature-rich version of this project <a href="https://github.com/jfcarr/nano-rp2040-rest">here</a>.</p>
@@ -5402,7 +5402,7 @@ font-style: inherit;">{</span></span>
 background-color: null;
 font-style: inherit;">}</span></span></code></pre></div></div>
 <p>Your project layout should now look like this:</p>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2025/images/nano_project_layout.jpg" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2025/images/nano_project_layout.jpg" class="img-fluid"></p>
 <p>Keep <strong>web_server_rest_temp.ino</strong> open for editing.</p>
 </section>
 <section id="main-sketch" class="level2">
@@ -7754,13 +7754,13 @@ font-style: inherit;">}</span></span></code></pre></div></div>
  ]]></description>
   <category>C</category>
   <category>Embedded and IoT</category>
-  <guid>https://jcarr.codeberg.page/blog/posts/2025/nano_rp2040_rest.html</guid>
+  <guid>https://jfcarr.github.io/blog/posts/2025/nano_rp2040_rest.html</guid>
   <pubDate>Sun, 02 Feb 2025 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>ESP8266 MicroPython Project with OLED</title>
   <dc:creator>Jim Carr</dc:creator>
-  <link>https://jcarr.codeberg.page/blog/posts/2025/esp8266_oled.html</link>
+  <link>https://jfcarr.github.io/blog/posts/2025/esp8266_oled.html</link>
   <description><![CDATA[ 
 
 
@@ -7782,7 +7782,7 @@ font-style: inherit;">}</span></span></code></pre></div></div>
 <p>Follow this schematic:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://jcarr.codeberg.page/blog/posts/2025/images/es8266-oled_bb-1.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2025/images/es8266-oled_bb-1.jpg" class="img-fluid figure-img"></p>
 <figcaption>Credit: <a href="https://randomnerdtutorials.com/micropython-oled-display-esp32-esp8266/" class="uri">https://randomnerdtutorials.com/micropython-oled-display-esp32-esp8266/</a></figcaption>
 </figure>
 </div>
@@ -8846,13 +8846,13 @@ font-style: inherit;">-p</span> /dev/ttyUSB0 run main.py</span></code></pre></di
  ]]></description>
   <category>Python</category>
   <category>Embedded and IoT</category>
-  <guid>https://jcarr.codeberg.page/blog/posts/2025/esp8266_oled.html</guid>
+  <guid>https://jfcarr.github.io/blog/posts/2025/esp8266_oled.html</guid>
   <pubDate>Sun, 12 Jan 2025 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Using UV To Manage a ESP8266 MicroPython Project</title>
   <dc:creator>Jim Carr</dc:creator>
-  <link>https://jcarr.codeberg.page/blog/posts/2025/esp8266_uv.html</link>
+  <link>https://jfcarr.github.io/blog/posts/2025/esp8266_uv.html</link>
   <description><![CDATA[ 
 
 
@@ -9176,13 +9176,13 @@ font-style: inherit;">-p</span> /dev/ttyUSB0 run hello.py</span></code></pre></d
  ]]></description>
   <category>Python</category>
   <category>Embedded and IoT</category>
-  <guid>https://jcarr.codeberg.page/blog/posts/2025/esp8266_uv.html</guid>
+  <guid>https://jfcarr.github.io/blog/posts/2025/esp8266_uv.html</guid>
   <pubDate>Sun, 05 Jan 2025 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Single-File Dependency Management in Python Script Using UV</title>
   <dc:creator>Jim Carr</dc:creator>
-  <link>https://jcarr.codeberg.page/blog/posts/2025/single_file_depend_uv_python.html</link>
+  <link>https://jfcarr.github.io/blog/posts/2025/single_file_depend_uv_python.html</link>
   <description><![CDATA[ 
 
 
@@ -9309,13 +9309,13 @@ font-style: inherit;">python3</span> numpy_version.py</span></code></pre></div><
 
  ]]></description>
   <category>Python</category>
-  <guid>https://jcarr.codeberg.page/blog/posts/2025/single_file_depend_uv_python.html</guid>
+  <guid>https://jfcarr.github.io/blog/posts/2025/single_file_depend_uv_python.html</guid>
   <pubDate>Wed, 01 Jan 2025 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Total Dissolved Solids Measurements Using Arduino</title>
   <dc:creator>Jim Carr</dc:creator>
-  <link>https://jcarr.codeberg.page/blog/posts/2024/tds_sensor_arduino.html</link>
+  <link>https://jfcarr.github.io/blog/posts/2024/tds_sensor_arduino.html</link>
   <description><![CDATA[ 
 
 
@@ -9353,7 +9353,7 @@ font-style: inherit;">python3</span> numpy_version.py</span></code></pre></div><
 <p>Connect the TDS Sensor controller to the Arduino’s 5V, Ground, and A1 pins, and suspend the sensor probe in a container of water:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://jcarr.codeberg.page/blog/posts/2024/images/tds/CQRSENTDS01-107.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2024/images/tds/CQRSENTDS01-107.jpg" class="img-fluid figure-img"></p>
 <figcaption>Source: <a href="http://www.cqrobot.wiki/index.php/File:CQRSENTDS01-107.jpg">CQRobot wiki</a></figcaption>
 </figure>
 </div>
@@ -10390,13 +10390,13 @@ font-style: inherit;">make</span> monitor</span></code></pre></div></div>
 
  ]]></description>
   <category>Embedded and IoT</category>
-  <guid>https://jcarr.codeberg.page/blog/posts/2024/tds_sensor_arduino.html</guid>
+  <guid>https://jfcarr.github.io/blog/posts/2024/tds_sensor_arduino.html</guid>
   <pubDate>Sun, 17 Nov 2024 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Observing Plan for the November Astronomy Program at Garber Forest</title>
   <dc:creator>Jim Carr</dc:creator>
-  <link>https://jcarr.codeberg.page/blog/posts/2024/garber_observing_plan.html</link>
+  <link>https://jfcarr.github.io/blog/posts/2024/garber_observing_plan.html</link>
   <description><![CDATA[ 
 
 
@@ -10408,16 +10408,16 @@ font-style: inherit;">make</span> monitor</span></code></pre></div></div>
 <p><strong>IMPORTANT UPDATE!</strong> Due to the forecast of clouds and showers on Saturday evening, I regret to inform you that I must cancel. So sorry! I’m hoping that I can re-schedule next Spring.</p>
 </blockquote>
 <p>On November 9th, 2024, I will be at the <a href="https://maps.app.goo.gl/Wqxny94ZTLmi6igm6">Garber Forest near Lewisburg Ohio</a>, equipped with my telescope to discuss astronomy and lead an exploration of the night sky - weather permitting, of course!</p>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2024/images/observing_plan/under_the_stars_1.jpg" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2024/images/observing_plan/under_the_stars_1.jpg" class="img-fluid"></p>
 <p>This event is organized by the <a href="https://preblecountyparks.org/">Preble County Park District</a>.</p>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2024/images/observing_plan/under_the_stars_2.jpg" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2024/images/observing_plan/under_the_stars_2.jpg" class="img-fluid"></p>
 <section id="what-well-look-for" class="level1">
 <h1>What We’ll Look For</h1>
 <section id="pm" class="level2">
 <h2 class="anchored" data-anchor-id="pm">8pm</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://jcarr.codeberg.page/blog/posts/2024/images/observing_plan/view_1.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2024/images/observing_plan/view_1.jpg" class="img-fluid figure-img"></p>
 <figcaption>Jupiter, Aldebaran, Pleiades, Capella</figcaption>
 </figure>
 </div>
@@ -10426,21 +10426,21 @@ font-style: inherit;">make</span> monitor</span></code></pre></div></div>
 <p>To the North-East, at about the same altitude as the Pleiades, is the bright star Capella, part of Auriga.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://jcarr.codeberg.page/blog/posts/2024/images/observing_plan/view_2.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2024/images/observing_plan/view_2.jpg" class="img-fluid figure-img"></p>
 <figcaption>Moon and Saturn</figcaption>
 </figure>
 </div>
 <p>Looking to the South, a waxing Moon just over half full shines between the constellations Aquarius (“the water-carrier”) and Capricornus (“the horned goat”), at about 33 degrees above the horizon. Just up and to the left of the moon is Saturn (magnitude 0.85), in Aquarius. Looking closely, the rings of Saturn are almost edge-on, but hopefully we’ll be able to make them out.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://jcarr.codeberg.page/blog/posts/2024/images/observing_plan/view_4_summer_triangle.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2024/images/observing_plan/view_4_summer_triangle.jpg" class="img-fluid figure-img"></p>
 <figcaption>The Summer Triangle</figcaption>
 </figure>
 </div>
 <p>High in the sky to the west we see the three bright stars Altair, Deneb, and Vega. Although these stars are in separate constellations (Aquila, Lyra, and Cygnus, respectively) together they make up “The Summer Triangle”, a well-known asterism.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://jcarr.codeberg.page/blog/posts/2024/images/observing_plan/view_5.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2024/images/observing_plan/view_5.jpg" class="img-fluid figure-img"></p>
 <figcaption>Ursa Major, Ursa Minor, Polaris</figcaption>
 </figure>
 </div>
@@ -10454,7 +10454,7 @@ font-style: inherit;">make</span> monitor</span></code></pre></div></div>
 <h2 class="anchored" data-anchor-id="pm-2">10pm</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://jcarr.codeberg.page/blog/posts/2024/images/observing_plan/view_6.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2024/images/observing_plan/view_6.jpg" class="img-fluid figure-img"></p>
 <figcaption>Orion</figcaption>
 </figure>
 </div>
@@ -10488,7 +10488,7 @@ font-style: inherit;">make</span> monitor</span></code></pre></div></div>
 <p>Altitude and azimuth are two coordinates used in astronomy to specify the position of an object in the sky as observed from a specific location on Earth.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://jcarr.codeberg.page/blog/posts/2024/images/observing_plan/altitude-and-azimuth.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2024/images/observing_plan/altitude-and-azimuth.jpg" class="img-fluid figure-img"></p>
 <figcaption>Altitude and Azimuth</figcaption>
 </figure>
 </div>
@@ -10695,13 +10695,13 @@ font-style: inherit;">make</span> monitor</span></code></pre></div></div>
 
  ]]></description>
   <category>Astronomy</category>
-  <guid>https://jcarr.codeberg.page/blog/posts/2024/garber_observing_plan.html</guid>
+  <guid>https://jfcarr.github.io/blog/posts/2024/garber_observing_plan.html</guid>
   <pubDate>Fri, 18 Oct 2024 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Detecting the Voyager Spacecraft in Green Bank Telescope Data</title>
   <dc:creator>Jim Carr</dc:creator>
-  <link>https://jcarr.codeberg.page/blog/posts/2024/voyager_python.html</link>
+  <link>https://jfcarr.github.io/blog/posts/2024/voyager_python.html</link>
   <description><![CDATA[ 
 
 
@@ -10828,7 +10828,7 @@ font-style: inherit;">code</span> .</span></code></pre></div></div>
 <h1>Create the Notebook</h1>
 <p>Create a new file named <code>voyager.ipynb</code>. VS Code will initialize it as a Jupyter notebook.</p>
 <p>On the right side of the notebook interface you’ll see link named “Select Kernel”. Click it, select “Python Environments”, then select the bin/python inside your virtual environment. You’ll end up with something that looks like this:</p>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2024/images/voyager/python_environment.png" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2024/images/voyager/python_environment.png" class="img-fluid"></p>
 <p>Let’s make sure our Python environment is working correctly. Inside the empty cell at the top of notebook, type this:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><span class="bu" style="color: null;
 background-color: null;
@@ -10837,7 +10837,7 @@ background-color: null;
 font-style: inherit;">"OK!"</span>)</span></code></pre></div></div>
 <p>Then, click “Run All”. Since this is your first time executing Python code in a notebook in the environment, you may be prompted to install the ipykernel package. If so, go ahead and click “Install”.</p>
 <p>After the kernel installs, the notebook will execute and you’ll see this:</p>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2024/images/voyager/test_ok.png" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2024/images/voyager/test_ok.png" class="img-fluid"></p>
 </section>
 <section id="extract-the-data" class="level1">
 <h1>Extract the Data</h1>
@@ -10880,14 +10880,14 @@ font-style: inherit;">'voyager_f1032192_t300_v2.fil'</span>)</span></code></pre>
 <p>Add another cell and get some information from the filterbank header:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1">obs.info()</span></code></pre></div></div>
 <p>The output will look something like this:</p>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2024/images/voyager/obs_info.png" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2024/images/voyager/obs_info.png" class="img-fluid"></p>
 <blockquote class="blockquote">
 <p>The specifics are discussed in detail in the <a href="http://sigproc.sourceforge.net/sigproc.pdf">SIGPROC user guide</a>. Briefly, astronomers use a Celestial coordinate system to specify the location of objects in outer space. The <code>src_raj</code> and <code>src_dej</code> specify the <a href="https://en.wikipedia.org/wiki/Epoch_%28astronomy%29#Julian_years_and_J2000">J2000</a> coordinates, in terms of Right Ascension and Declination (RA &amp; DEC), toward which the telescope is pointing. <code>tstart</code> specifies the <a href="https://en.wikipedia.org/wiki/Julian_day">Julian Date</a> of the observation, and <code>fch1</code> and <code>foff</code> specify the frequency of the first and frequency increment of each data channel respectively, in MHz.</p>
 <p><a href="https://github.com/UCBerkeleySETI/breakthrough/blob/master/GBT/voyager/voyager.ipynb">source</a></p>
 </blockquote>
 <p>Add another cell and plot the observation data’s spectrum:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1">obs.plot_spectrum()</span></code></pre></div></div>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2024/images/voyager/spectrum_wide.png" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2024/images/voyager/spectrum_wide.png" class="img-fluid"></p>
 <p>What you’re seeing is the power spectral density of the data contained in the filterbank file. There are discontinuities due to the BL digital filters, but not a lot else. Voyager is a very narrowband signal, so we can’t easily see it in this plot. In order to do that, we need to zoom in. We use <code>f_start</code> and <code>f_stop</code> arguments to specify the beginning and ending frequency of the slice we want to view:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1">obs.plot_spectrum(f_start<span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -10898,7 +10898,7 @@ background-color: null;
 font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">8420.25</span>)</span></code></pre></div></div>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2024/images/voyager/spectrum_narrow.png" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2024/images/voyager/spectrum_narrow.png" class="img-fluid"></p>
 <p>There it is: the telemetry signal from Voyager 1! What you see is the carrier (center) and two sidebands that carry the data.</p>
 </section>
 <section id="what-have-we-accomplished" class="level1">
@@ -10971,13 +10971,13 @@ font-style: inherit;">8420.25</span>)</span></code></pre></div></div>
  ]]></description>
   <category>Python</category>
   <category>Astronomy</category>
-  <guid>https://jcarr.codeberg.page/blog/posts/2024/voyager_python.html</guid>
+  <guid>https://jfcarr.github.io/blog/posts/2024/voyager_python.html</guid>
   <pubDate>Sun, 08 Sep 2024 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Modern Perl</title>
   <dc:creator>Jim Carr</dc:creator>
-  <link>https://jcarr.codeberg.page/blog/posts/2024/modern_perl.html</link>
+  <link>https://jfcarr.github.io/blog/posts/2024/modern_perl.html</link>
   <description><![CDATA[ 
 
 
@@ -12216,13 +12216,13 @@ font-style: inherit;"># pause before exiting</span></span></code></pre></div></d
 
  ]]></description>
   <category>Perl</category>
-  <guid>https://jcarr.codeberg.page/blog/posts/2024/modern_perl.html</guid>
+  <guid>https://jfcarr.github.io/blog/posts/2024/modern_perl.html</guid>
   <pubDate>Mon, 01 Jul 2024 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>6502 Programming in C</title>
   <dc:creator>Jim Carr</dc:creator>
-  <link>https://jcarr.codeberg.page/blog/posts/2024/6502_programming_c.html</link>
+  <link>https://jfcarr.github.io/blog/posts/2024/6502_programming_c.html</link>
   <description><![CDATA[ 
 
 
@@ -12231,7 +12231,7 @@ font-style: inherit;"># pause before exiting</span></span></code></pre></div></d
 
 
 <p>Would you like to learn about programming on a very old microprocessor?</p>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2024/images/mos_6502ad_4585_top.png" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2024/images/mos_6502ad_4585_top.png" class="img-fluid"></p>
 <p><a href="https://jfcarr.github.io/kbase/articles/6502_programming_c.html">In this Knowledge Base article</a>, I’ll discuss programming for the 6502:</p>
 <ol type="1">
 <li>Setting up a programming environment.</li>
@@ -12245,13 +12245,13 @@ font-style: inherit;"># pause before exiting</span></span></code></pre></div></d
   <category>Retro</category>
   <category>C</category>
   <category>Assembly</category>
-  <guid>https://jcarr.codeberg.page/blog/posts/2024/6502_programming_c.html</guid>
+  <guid>https://jfcarr.github.io/blog/posts/2024/6502_programming_c.html</guid>
   <pubDate>Sun, 16 Jun 2024 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Think Async</title>
   <dc:creator>Jim Carr</dc:creator>
-  <link>https://jcarr.codeberg.page/blog/posts/2024/think_async.html</link>
+  <link>https://jfcarr.github.io/blog/posts/2024/think_async.html</link>
   <description><![CDATA[ 
 
 
@@ -12634,13 +12634,13 @@ font-style: inherit;">);</span></span></code></pre></div></div>
 
  ]]></description>
   <category>.NET</category>
-  <guid>https://jcarr.codeberg.page/blog/posts/2024/think_async.html</guid>
+  <guid>https://jfcarr.github.io/blog/posts/2024/think_async.html</guid>
   <pubDate>Sun, 09 Jun 2024 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>DuckDuckGo AI Chat</title>
   <dc:creator>Jim Carr</dc:creator>
-  <link>https://jcarr.codeberg.page/blog/posts/2024/ddg_ai_chat.html</link>
+  <link>https://jfcarr.github.io/blog/posts/2024/ddg_ai_chat.html</link>
   <description><![CDATA[ 
 
 
@@ -12649,9 +12649,9 @@ font-style: inherit;">);</span></span></code></pre></div></div>
 
 
 <p>When you execute a search on <a href="https://start.duckduckgo.com/">DuckDuckGo</a>, you’ll now see a new option at the top of the results:</p>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2024/images/chat-ui-option-ddg.png" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2024/images/chat-ui-option-ddg.png" class="img-fluid"></p>
 <p>Clicking “Chat” gives you a UI very similar to other AI Chatbots. (You can also send your query directly to the Chat UI by including a chat bang in your query text, e.g., <code>What are the pros and cons of AI? !chat</code>.)</p>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2024/images/ddg-ai-chat-ui.png" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2024/images/ddg-ai-chat-ui.png" class="img-fluid"></p>
 <p>When the Chat UI is displayed, you’ll notice a comforting bit of text on the left-hand side:</p>
 <blockquote class="blockquote">
 <p>Active Privacy Protection Your chats are private, never saved by us, and not used to train AI models.</p>
@@ -12681,13 +12681,13 @@ font-style: inherit;">);</span></span></code></pre></div></div>
 
  ]]></description>
   <category>AI</category>
-  <guid>https://jcarr.codeberg.page/blog/posts/2024/ddg_ai_chat.html</guid>
+  <guid>https://jfcarr.github.io/blog/posts/2024/ddg_ai_chat.html</guid>
   <pubDate>Mon, 15 Apr 2024 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Practical Astronomy Algorithms in Various Languages</title>
   <dc:creator>Jim Carr</dc:creator>
-  <link>https://jcarr.codeberg.page/blog/posts/2024/practical_astro_languages.html</link>
+  <link>https://jfcarr.github.io/blog/posts/2024/practical_astro_languages.html</link>
   <description><![CDATA[ 
 
 
@@ -13298,13 +13298,13 @@ font-style: inherit;">);</span></span></code></pre></div></div>
 
  ]]></description>
   <category>Astronomy</category>
-  <guid>https://jcarr.codeberg.page/blog/posts/2024/practical_astro_languages.html</guid>
+  <guid>https://jfcarr.github.io/blog/posts/2024/practical_astro_languages.html</guid>
   <pubDate>Wed, 03 Apr 2024 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Modern .NET Tooling in VS Code</title>
   <dc:creator>Jim Carr</dc:creator>
-  <link>https://jcarr.codeberg.page/blog/posts/2023/modern_dotnet_tooling.html</link>
+  <link>https://jfcarr.github.io/blog/posts/2023/modern_dotnet_tooling.html</link>
   <description><![CDATA[ 
 
 
@@ -13313,7 +13313,7 @@ font-style: inherit;">);</span></span></code></pre></div></div>
 
 
 <p>.NET / VS Code session incoming! I’ve covered this topic before, but now there are some interesting newer features in the “C# Dev Kit” extension. <a href="https://www.meetup.com/gem-city-tech/events/tlfjbtyfcpbsb/">Come to the Innovation Hub in Dayton on November 14th</a>, and learn all about it!</p>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2023/images/modern_dotnet_tooling_vscode.jpg" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2023/images/modern_dotnet_tooling_vscode.jpg" class="img-fluid"></p>
 <p>The Dayton .NET Developers group is part of GemCity TECH. There are groups covering a wide variety of technical topics and interests. <a href="https://www.meetup.com/gem-city-tech/events/">Check it out!</a></p>
 
 
@@ -13321,13 +13321,13 @@ font-style: inherit;">);</span></span></code></pre></div></div>
  ]]></description>
   <category>.NET</category>
   <category>Visual Studio Code</category>
-  <guid>https://jcarr.codeberg.page/blog/posts/2023/modern_dotnet_tooling.html</guid>
+  <guid>https://jfcarr.github.io/blog/posts/2023/modern_dotnet_tooling.html</guid>
   <pubDate>Sun, 29 Oct 2023 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>.NET IoT and Terminal GUI</title>
   <dc:creator>Jim Carr</dc:creator>
-  <link>https://jcarr.codeberg.page/blog/posts/2023/dotnet_iot_terminal_gui.html</link>
+  <link>https://jfcarr.github.io/blog/posts/2023/dotnet_iot_terminal_gui.html</link>
   <description><![CDATA[ 
 
 
@@ -13336,7 +13336,7 @@ font-style: inherit;">);</span></span></code></pre></div></div>
 
 
 <p>I gave this talk for the Dayton .NET Developers Group at the Innovation Hub (in Dayton, Ohio) on August 8th. I’m really happy with how this one turned out! We were able to get through all of the content, and without technical glitches! Good conversation afterwards, too.</p>
-<p><img src="https://jcarr.codeberg.page/blog/posts/2023/images/dotnet_iot_terminal_gui_talk.jpg" class="img-fluid"></p>
+<p><img src="https://jfcarr.github.io/blog/posts/2023/images/dotnet_iot_terminal_gui_talk.jpg" class="img-fluid"></p>
 <p>If you’re interested in the content, all of the source code is available at <a href="https://github.com/jfcarr/dotnet-iot-tui" class="uri">https://github.com/jfcarr/dotnet-iot-tui</a>, along with high-level documentation at <a href="https://jfcarr.github.io/dotnet-iot-tui/" class="uri">https://jfcarr.github.io/dotnet-iot-tui/</a>.</p>
 <p>Time to start thinking about what’s next!</p>
 
@@ -13345,7 +13345,7 @@ font-style: inherit;">);</span></span></code></pre></div></div>
  ]]></description>
   <category>.NET</category>
   <category>Embedded and IoT</category>
-  <guid>https://jcarr.codeberg.page/blog/posts/2023/dotnet_iot_terminal_gui.html</guid>
+  <guid>https://jfcarr.github.io/blog/posts/2023/dotnet_iot_terminal_gui.html</guid>
   <pubDate>Fri, 11 Aug 2023 04:00:00 GMT</pubDate>
 </item>
 </channel>
